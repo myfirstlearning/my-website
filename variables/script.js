@@ -52,3 +52,11 @@ const letters = ["a", "b", "c"];
 const numbers = [1, 2, 3];
 const alphaNumeric = letters.concat(numbers);
 console.log(alphaNumeric);
+
+
+const person = {
+    name: 'Brad'
+}
+console.log(person.name);
+person.name = 'Hogg';
+console.log(person.name);
